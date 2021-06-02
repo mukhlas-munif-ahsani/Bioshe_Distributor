@@ -1,0 +1,2 @@
+rootProject.name = "Bioshe Distributor"
+include ':app'
