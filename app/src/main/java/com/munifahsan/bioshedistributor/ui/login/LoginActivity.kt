@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import com.google.firebase.auth.FirebaseAuth
-import com.munifahsan.biosheadmin.utils.Constants
+import com.munifahsan.bioshedistributor.utils.Constants
 import com.munifahsan.bioshedistributor.MainActivity
 import com.munifahsan.bioshedistributor.databinding.ActivityLoginBinding
 import java.util.regex.Matcher

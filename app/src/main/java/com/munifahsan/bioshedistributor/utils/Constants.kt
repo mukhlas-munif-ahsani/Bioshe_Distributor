@@ -1,4 +1,4 @@
-package com.munifahsan.biosheadmin.utils
+package com.munifahsan.bioshedistributor.utils
 
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -21,6 +21,8 @@ class Constants {
             .collection("DISTRIBUTOR")
         val PRODUCT_DB = FirebaseFirestore.getInstance()
             .collection("PRODUCT")
+        val REQUEST_PRODUCT_DB = FirebaseFirestore.getInstance()
+            .collection("REQUEST_PRODUK")
         val PROMO_DB = FirebaseFirestore.getInstance()
             .collection("PROMO")
         val REWARD_DB = FirebaseFirestore.getInstance()
